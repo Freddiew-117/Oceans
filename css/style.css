@@ -297,6 +297,19 @@ h6,
 
 /* MOBILE VERSION */
 @media (max-width: 991.98px) {
+    .card.expanded{
+        height: 500px !important;
+    }
+    .borders{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .titles>h5{
+        padding-right: 1em;
+    }
+    .text-content{
+        padding-bottom: 0.5em;
+    }
     .navbar .navbar-brand {
         width: 100%;
         /* background: var(--primary); */
