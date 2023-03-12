@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="utf-8">
-    <title>Oceans & Us | Web 3 PR Services</title>
+    <title>Oceans & Us</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/Oceans & Us/LogoOceans & UsSimple.png" rel="icon">
+    <link href="img/Oceans/favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,8 +18,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Rubik:wght@500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -32,45 +31,18 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Ubuntu', serif;
-            --font-primary: 'Source Sans Pro', sans-serif;
-        }
+    <link rel="stylesheet" href="./fonts/style.css">
 
-        h1,
-        .h1,
-        h2,
-        .h2,
-        h3,
-        .h3,
-        h4,
-        .h4,
-        h5,
-        .h5,
-        h6,
-        .h6 {
-            font-family: 'Ubuntu', serif;
-            color: black !important;
-        }
-    </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
-    <script>
-        window.onload = function () {
-            Particles.init({
-                selector: '.backg',
-
-                color:
-                    '#48F2E3'
-                ,
-                connectParticles:
-                    true
-
-            });
-        };
-
+    <script language="JavaScript">
+        var frmvalidator = new Validator("contactform");
+        frmvalidator.addValidation("name", "req", "Please provide your name");
+        frmvalidator.addValidation("email", "req", "Please provide your email");
+        frmvalidator.addValidation("email", "email",
+            "Please enter a valid email address");
     </script>
 </head>
+
 
 <body>
     <!-- Spinner Start -->
@@ -89,7 +61,7 @@
 
             <div id="form-main">
               <div id="form-div">
-                <form action="MAILTO:info@elitweb3.com?subject=Oceans & Us" method="post" enctype="text/plain" class="form" id="form1">
+                <form action="MAILTO:joel@oceansandus.com?subject=Oceans & Us" method="post" enctype="text/plain" class="form" id="form1">
     
                   <p class="name">
                     <input name="name" type="text" class=" feedback-input" placeholder="Name" id="name" value="" />
@@ -134,7 +106,7 @@
         </a>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav  ms-auto  p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="index.html" class="nav-item nav-link">Home</a>
                 <a href="about.html" class="nav-item nav-link">About</a>
                 <a href="index.html#Our-services" class="nav-item nav-link">Services</a>
 
@@ -143,8 +115,6 @@
         </div>
     </nav>
     <!-- Navbar End -->
-
-    <canvas class="backg"></canvas>
 
     <!-- About Start -->
     <div class="container-xxl py-5">
@@ -157,33 +127,33 @@
                         At Oceans & Us, we are committed to protecting the privacy of our users. This Privacy Policy explains how we collect, use, and disclose personal information when you use our website, Oceans & Us.com.
                     </p>
                     <p>
-                        Collection of Personal Information
+                        Collection of Personal Information: <br>
                         We may collect personal information, such as your name and email address, when you create an account on our website or sign up for our newsletter. We may also collect information about your browsing activity on our website, including the pages you visit and the links you click.
                     </p>
                     <p>
-                        Use of Personal Information
+                        Use of Personal Information: <br>
 
                         We use the personal information we collect to provide you with the services and features available on our website, such as personalized content recommendations and email updates. We may also use your personal information to improve the performance and functionality of our website.
                     </p>
                     <p>
-                        Disclosure of Personal Information
+                        Disclosure of Personal Information: <br>
 
                         We may disclose personal information to third parties in order to provide you with the services and features available on our website, such as targeted advertising and analytics. We may also disclose personal information to comply with legal requirements or to protect the rights and safety of our users and third parties.
                     </p>
                     <p>
-                        Security of Personal Information
+                        Security of Personal Information: <br>
 
                         We take reasonable measures to protect the personal information we collect from unauthorized access, use, or disclosure. However, no security measures can be completely secure, and we cannot guarantee the security of your personal information.
                     </p>
                     <p>
-                        Changes to this Privacy Policy
+                        Changes to this Privacy Policy: <br>
 
                         We may update this Privacy Policy from time to time to reflect changes in our privacy practices. We will notify you of any changes by posting the updated Privacy Policy on our website.
                     </p>
                     <p>
-                        Contact Us
+                        Contact Us: <br>
 
-                        If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at info@ElitWeb3.com.
+                        If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at info@oceansandus.com.
                     </p>
                 </div>
             </div>
@@ -209,37 +179,33 @@
     <!-- Service End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
+    <div class="container-fluid footer wow fadeIn" data-wow-delay="0.1s"
+        style="border-top: 1px solid rgba(0,0,0,0.125);">
+        <div class="container" style="padding-top: 3em;">
             <div class="row g-5">
-                <div class="col-lg-4 col-md-6">
-                    <h5 class="text-white mb-4">Find Us</h5>
-                    <!-- <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p> -->
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@elitweb3.com</p>
-                    <div class="d-flex pt-3">
-                        <a class="btn btn-square buttons rounded-circle me-2" href="https://mobile.twitter.com/elitweb3"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square buttons rounded-circle me-2" href="https://www.elitweb3.com/"><i
-                                class="fa fa-globe"></i></a>
-                        <a class="btn btn-square buttons rounded-circle me-2" href="https://www.youtube.com/@elitweb3solutions100"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square buttons rounded-circle me-2" href="https://es.linkedin.com/company/elitweb3?trk=public_profile_topcard-current-company"><i
-                                class="fab fa-linkedin-in"></i></a>
-                    </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="#" >
+                        <img src="./img/Oceans/logo.png" class="navbar-log" >
+                    </a>
+                    <p>Global Climate Change initiative</p>
+
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <h5 class="text-white mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="about.html">About Us</a>
-                    <a class="btn btn-link" href="#popup1">Contact Us</a>
-                    <a class="btn btn-link" href="index.html#Our-services">Our Services</a>
-                    <a class="btn btn-link" href="privacyPolicy.html">Privacy Policy</a>
-                    <a class="btn btn-link" href="terms.html">Terms & Conditions</a>
+                <div class="col-lg-6 col-md-6 col-sm-12 flex">
+                    <a class="btn titles" href="#">Home</a>
+                    <a class="btn titles" href="privacyPolicy.html">Privacy Policy</a>
+                    <a class="btn titles" href="terms.html">Terms & Conditions</a>
+                    <a class="btn titles" href="#contact">Pledge</a>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <h5 class="text-white mb-4">Get a Quote</h5>
-                    <p>A meeting will be scheduled with one of our agents.</p>
-                    <div class="position-relative w-100">
-                        <a href="#popup1" class="btn buttons px-3 d-none d-lg-block" style="border-radius: 1em;">Get A
-                            Quote</a>
+                <div class="col-lg-3 col-md-6 col-sm-12 flex">
+                    <div class="d-flex pt-3 titles">
+                        <!-- <a class="btn btn-square me-2" href="https://mobile.twitter.com/oceanus">
+                            <img src="./img/Socials/Facebook.png"></a>
+                        <a class="btn btn-square me-2" href="https://mobile.twitter.com/oceanus">
+                            <img src="./img/Socials/Twitter.png"></a>
+                        <a class="btn btn-square me-2" href="https://mobile.twitter.com/oceanus">
+                            <img src="./img/Socials/Instagram.png"></a> -->
+                        <a class="btn btn-square me-2" target="_blank" href="https://ae.linkedin.com/company/oceansandus" >
+                            <img src="./img/Socials/LinkedIn.png"></a>
                     </div>
                 </div>
             </div>
@@ -249,11 +215,10 @@
 
 
     <!-- Copyright Start -->
-    <div class="container-fluid copyright bg-dark2 py-4">
+    <div class="container-fluid copyright py-4">
         <div class="container text-center" style="padding-bottom: 0px !important;">
-            <p class="mb-2">Copyright &copy; Oceans & Us, All Rights Reserved.
+            <p class="mb-2">Copyright &copy; Oceans & Us | All Rights Reserved.
             </p>
-            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
         </div>
     </div>
     <!-- Copyright End -->

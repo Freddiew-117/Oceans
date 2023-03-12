@@ -52,7 +52,7 @@ h6,
 .fishy {
     width: 3em;
     margin-left: 40%;
-    margin-top: 10%;
+    margin-top: 3%;
     transform: translatey(0px);
     animation: float2 15s ease-in-out infinite;
 }
