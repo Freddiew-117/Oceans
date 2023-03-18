@@ -295,8 +295,45 @@ h6,
     background-size: cover;
 }
 
+.inlineInvolve{
+display: none;
+}
+
 /* MOBILE VERSION */
 @media (max-width: 991.98px) {
+.navbar .navbar-nav .nav-link {
+    font-size: 1.5em !important;
+}
+
+.inlineInvolve{
+    margin-top: 3em;
+    font-size: 1.1em;
+}
+
+.abt{
+    background: url("../img/ellipse-about.png") no-repeat;
+    background-position: left;
+    padding-left: 1.4em !important;
+    margin-left: -1.4em;
+}
+
+    .navbar-collapse{
+        height: 70vh;
+        background: url("./../img/menu-background.png") no-repeat;
+        background-position: center;
+        background-size: 40vh 60vh;
+        background-origin: content-box;
+
+    }
+    .navbar{
+        background-color: white !important;
+    }
+    .outsideInvolve{
+        display: none;
+    }
+    .inlineInvolve{
+        display: block;
+    }
     .faq-text {
         padding-top: 0 !important;
     }
@@ -326,9 +363,9 @@ h6,
         padding: 10px 0;
     }
 
-    .navbar .navbar-nav {
+    /* .navbar .navbar-nav {
         border-top: 1px solid #EEEEEE;
-    }
+    } */
 
     .navbar-collapse {
         display: flex;
